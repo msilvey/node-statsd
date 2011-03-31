@@ -1,6 +1,6 @@
 { "name" : "node-statsd"
-, "description" : "node client for Etsy'd StatsD server"
-, "version" : "0.0.1"
+, "description" : "node client for Etsy StatsD server"
+, "version" : "0.0.2"
 , "author" : "Steve Ivy"
 , "repository" :
   { "type" : "git"
@@ -9,7 +9,7 @@
 , "bugs" : { "web" : "https://github.com/sivy/node-statsd/issues" }
 , "os" : [ "linux", "darwin", "freebsd" ]
 , "directories" : { "lib" : "./lib/" }
-, "main" : "./lib/apac"
+, "main" : "./lib/statsd.js"
 , "engines" : { "node" : ">=0.1.97" }
 , "dependencies" : { "mersenne" : "*" }
 , "licenses" :
